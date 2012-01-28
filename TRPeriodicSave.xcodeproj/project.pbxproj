@@ -1,0 +1,252 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66EFCB0114D3C6800030611B /* TRPeriodicSave.m in Sources */ = {isa = PBXBuildFile; fileRef = 66EFCB0014D3C6800030611B /* TRPeriodicSave.m */; };
+		66EFCB0314D3C8D00030611B /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 66EFCB0214D3C8D00030611B /* JRSwizzle.m */; };
+		66EFCB0714D3D6CC0030611B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66EFCB0614D3D6CC0030611B /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		662C1B2B14D1BD47000C69A2 /* TRPeriodicSave.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRPeriodicSave.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		662C1B3614D1BD47000C69A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66EFCB0014D3C6800030611B /* TRPeriodicSave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRPeriodicSave.m; sourceTree = "<group>"; };
+		66EFCB0214D3C8D00030611B /* JRSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRSwizzle.m; sourceTree = "<group>"; };
+		66EFCB0414D3C8E70030611B /* JRSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRSwizzle.h; sourceTree = "<group>"; };
+		66EFCB0514D3D4050030611B /* TRPeriodicSave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRPeriodicSave.h; sourceTree = "<group>"; };
+		66EFCB0614D3D6CC0030611B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		662C1B2814D1BD47000C69A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66EFCB0714D3D6CC0030611B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		662C1B2014D1BD47000C69A2 = {
+			isa = PBXGroup;
+			children = (
+				662C1B3414D1BD47000C69A2 /* TRPeriodicSave */,
+				662C1B2D14D1BD47000C69A2 /* Frameworks */,
+				662C1B2C14D1BD47000C69A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		662C1B2C14D1BD47000C69A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				662C1B2B14D1BD47000C69A2 /* TRPeriodicSave.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		662C1B2D14D1BD47000C69A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66EFCB0614D3D6CC0030611B /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		662C1B3414D1BD47000C69A2 /* TRPeriodicSave */ = {
+			isa = PBXGroup;
+			children = (
+				662C1B3514D1BD47000C69A2 /* Supporting Files */,
+				66EFCB0014D3C6800030611B /* TRPeriodicSave.m */,
+				66EFCB0514D3D4050030611B /* TRPeriodicSave.h */,
+				66EFCB0214D3C8D00030611B /* JRSwizzle.m */,
+				66EFCB0414D3C8E70030611B /* JRSwizzle.h */,
+			);
+			path = TRPeriodicSave;
+			sourceTree = "<group>";
+		};
+		662C1B3514D1BD47000C69A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				662C1B3614D1BD47000C69A2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		662C1B2A14D1BD47000C69A2 /* TRPeriodicSave */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 662C1B3D14D1BD47000C69A2 /* Build configuration list for PBXNativeTarget "TRPeriodicSave" */;
+			buildPhases = (
+				662C1B2714D1BD47000C69A2 /* Sources */,
+				662C1B2814D1BD47000C69A2 /* Frameworks */,
+				662C1B2914D1BD47000C69A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TRPeriodicSave;
+			productName = TRPeriodicSave;
+			productReference = 662C1B2B14D1BD47000C69A2 /* TRPeriodicSave.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		662C1B2214D1BD47000C69A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Connex Keysolutions Inc.";
+			};
+			buildConfigurationList = 662C1B2514D1BD47000C69A2 /* Build configuration list for PBXProject "TRPeriodicSave" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 662C1B2014D1BD47000C69A2;
+			productRefGroup = 662C1B2C14D1BD47000C69A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				662C1B2A14D1BD47000C69A2 /* TRPeriodicSave */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		662C1B2914D1BD47000C69A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		662C1B2714D1BD47000C69A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66EFCB0114D3C6800030611B /* TRPeriodicSave.m in Sources */,
+				66EFCB0314D3C8D00030611B /* JRSwizzle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		662C1B3B14D1BD47000C69A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		662C1B3C14D1BD47000C69A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		662C1B3E14D1BD47000C69A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				BUNDLE_LOADER = "";
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TRPeriodicSave/TRPeriodicSave-Prefix.pch";
+				INFOPLIST_FILE = TRPeriodicSave/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		662C1B3F14D1BD47000C69A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				BUNDLE_LOADER = "";
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TRPeriodicSave/TRPeriodicSave-Prefix.pch";
+				INFOPLIST_FILE = TRPeriodicSave/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		662C1B2514D1BD47000C69A2 /* Build configuration list for PBXProject "TRPeriodicSave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				662C1B3B14D1BD47000C69A2 /* Debug */,
+				662C1B3C14D1BD47000C69A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		662C1B3D14D1BD47000C69A2 /* Build configuration list for PBXNativeTarget "TRPeriodicSave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				662C1B3E14D1BD47000C69A2 /* Debug */,
+				662C1B3F14D1BD47000C69A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 662C1B2214D1BD47000C69A2 /* Project object */;
+}
