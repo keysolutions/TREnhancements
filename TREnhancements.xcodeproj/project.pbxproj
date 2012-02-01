@@ -7,20 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		66BBE1B914D9DD6F007A8B68 /* TREnhancements.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BBE1B814D9DD6F007A8B68 /* TREnhancements.m */; };
-		66EFCB0114D3C6800030611B /* TRPeriodicSave.m in Sources */ = {isa = PBXBuildFile; fileRef = 66EFCB0014D3C6800030611B /* TRPeriodicSave.m */; };
-		66EFCB0314D3C8D00030611B /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 66EFCB0214D3C8D00030611B /* JRSwizzle.m */; };
+		66BBE1CA14D9E127007A8B68 /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BBE1C314D9E127007A8B68 /* JRSwizzle.m */; };
+		66BBE1CB14D9E127007A8B68 /* TREnhancements.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BBE1C514D9E127007A8B68 /* TREnhancements.m */; };
+		66BBE1CC14D9E127007A8B68 /* TRPeriodicSave.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BBE1C714D9E127007A8B68 /* TRPeriodicSave.m */; };
 		66EFCB0714D3D6CC0030611B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66EFCB0614D3D6CC0030611B /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		662C1B2B14D1BD47000C69A2 /* TREnhancements.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TREnhancements.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		662C1B3614D1BD47000C69A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		66BBE1B814D9DD6F007A8B68 /* TREnhancements.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TREnhancements.m; sourceTree = "<group>"; };
-		66EFCB0014D3C6800030611B /* TRPeriodicSave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRPeriodicSave.m; sourceTree = "<group>"; };
-		66EFCB0214D3C8D00030611B /* JRSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRSwizzle.m; sourceTree = "<group>"; };
-		66EFCB0414D3C8E70030611B /* JRSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRSwizzle.h; sourceTree = "<group>"; };
-		66EFCB0514D3D4050030611B /* TRPeriodicSave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRPeriodicSave.h; sourceTree = "<group>"; };
+		66BBE1C114D9E127007A8B68 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = TREnhancements/Info.plist; sourceTree = SOURCE_ROOT; };
+		66BBE1C214D9E127007A8B68 /* JRSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JRSwizzle.h; path = TREnhancements/JRSwizzle.h; sourceTree = SOURCE_ROOT; };
+		66BBE1C314D9E127007A8B68 /* JRSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JRSwizzle.m; path = TREnhancements/JRSwizzle.m; sourceTree = SOURCE_ROOT; };
+		66BBE1C414D9E127007A8B68 /* TREnhancements-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TREnhancements-Prefix.pch"; path = "TREnhancements/TREnhancements-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		66BBE1C514D9E127007A8B68 /* TREnhancements.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TREnhancements.m; path = TREnhancements/TREnhancements.m; sourceTree = SOURCE_ROOT; };
+		66BBE1C614D9E127007A8B68 /* TRPeriodicSave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TRPeriodicSave.h; path = TREnhancements/TRPeriodicSave.h; sourceTree = SOURCE_ROOT; };
+		66BBE1C714D9E127007A8B68 /* TRPeriodicSave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TRPeriodicSave.m; path = TREnhancements/TRPeriodicSave.m; sourceTree = SOURCE_ROOT; };
 		66EFCB0614D3D6CC0030611B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -64,23 +65,16 @@
 		662C1B3414D1BD47000C69A2 /* TREnhancements */ = {
 			isa = PBXGroup;
 			children = (
-				662C1B3514D1BD47000C69A2 /* Supporting Files */,
-				66EFCB0014D3C6800030611B /* TRPeriodicSave.m */,
-				66EFCB0514D3D4050030611B /* TRPeriodicSave.h */,
-				66EFCB0214D3C8D00030611B /* JRSwizzle.m */,
-				66EFCB0414D3C8E70030611B /* JRSwizzle.h */,
-				66BBE1B814D9DD6F007A8B68 /* TREnhancements.m */,
+				66BBE1C114D9E127007A8B68 /* Info.plist */,
+				66BBE1C214D9E127007A8B68 /* JRSwizzle.h */,
+				66BBE1C314D9E127007A8B68 /* JRSwizzle.m */,
+				66BBE1C414D9E127007A8B68 /* TREnhancements-Prefix.pch */,
+				66BBE1C514D9E127007A8B68 /* TREnhancements.m */,
+				66BBE1C614D9E127007A8B68 /* TRPeriodicSave.h */,
+				66BBE1C714D9E127007A8B68 /* TRPeriodicSave.m */,
 			);
 			name = TREnhancements;
 			path = TRPeriodicSave;
-			sourceTree = "<group>";
-		};
-		662C1B3514D1BD47000C69A2 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				662C1B3614D1BD47000C69A2 /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,9 +138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66EFCB0114D3C6800030611B /* TRPeriodicSave.m in Sources */,
-				66EFCB0314D3C8D00030611B /* JRSwizzle.m in Sources */,
-				66BBE1B914D9DD6F007A8B68 /* TREnhancements.m in Sources */,
+				66BBE1CA14D9E127007A8B68 /* JRSwizzle.m in Sources */,
+				66BBE1CB14D9E127007A8B68 /* TREnhancements.m in Sources */,
+				66BBE1CC14D9E127007A8B68 /* TRPeriodicSave.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,8 +199,8 @@
 				BUNDLE_LOADER = "";
 				GCC_ENABLE_OBJC_GC = required;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TRPeriodicSave/TRPeriodicSave-Prefix.pch";
-				INFOPLIST_FILE = TRPeriodicSave/Info.plist;
+				GCC_PREFIX_HEADER = "TREnhancements/TREnhancements-Prefix.pch";
+				INFOPLIST_FILE = TREnhancements/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = TREnhancements;
@@ -221,8 +215,8 @@
 				BUNDLE_LOADER = "";
 				GCC_ENABLE_OBJC_GC = required;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TRPeriodicSave/TRPeriodicSave-Prefix.pch";
-				INFOPLIST_FILE = TRPeriodicSave/Info.plist;
+				GCC_PREFIX_HEADER = "TREnhancements/TREnhancements-Prefix.pch";
+				INFOPLIST_FILE = TREnhancements/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = TREnhancements;
