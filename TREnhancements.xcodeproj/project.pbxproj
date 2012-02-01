@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66BBE1B914D9DD6F007A8B68 /* TREnhancements.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BBE1B814D9DD6F007A8B68 /* TREnhancements.m */; };
 		66EFCB0114D3C6800030611B /* TRPeriodicSave.m in Sources */ = {isa = PBXBuildFile; fileRef = 66EFCB0014D3C6800030611B /* TRPeriodicSave.m */; };
 		66EFCB0314D3C8D00030611B /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 66EFCB0214D3C8D00030611B /* JRSwizzle.m */; };
 		66EFCB0714D3D6CC0030611B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66EFCB0614D3D6CC0030611B /* Cocoa.framework */; };
@@ -15,6 +16,7 @@
 /* Begin PBXFileReference section */
 		662C1B2B14D1BD47000C69A2 /* TREnhancements.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TREnhancements.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		662C1B3614D1BD47000C69A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66BBE1B814D9DD6F007A8B68 /* TREnhancements.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TREnhancements.m; sourceTree = "<group>"; };
 		66EFCB0014D3C6800030611B /* TRPeriodicSave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRPeriodicSave.m; sourceTree = "<group>"; };
 		66EFCB0214D3C8D00030611B /* JRSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRSwizzle.m; sourceTree = "<group>"; };
 		66EFCB0414D3C8E70030611B /* JRSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRSwizzle.h; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				66EFCB0514D3D4050030611B /* TRPeriodicSave.h */,
 				66EFCB0214D3C8D00030611B /* JRSwizzle.m */,
 				66EFCB0414D3C8E70030611B /* JRSwizzle.h */,
+				66BBE1B814D9DD6F007A8B68 /* TREnhancements.m */,
 			);
 			name = TREnhancements;
 			path = TRPeriodicSave;
@@ -143,6 +146,7 @@
 			files = (
 				66EFCB0114D3C6800030611B /* TRPeriodicSave.m in Sources */,
 				66EFCB0314D3C8D00030611B /* JRSwizzle.m in Sources */,
+				66BBE1B914D9DD6F007A8B68 /* TREnhancements.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

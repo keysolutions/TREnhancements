@@ -1,31 +1,8 @@
-#import "JRSwizzle.h"
 #import "TRPeriodicSave.h"
-
-@implementation NSObject (TRPeriodicSave)
-
-// TrackRecord calls [TimeTrackerController toggleTimer:(id)arg] when starting or stopping a timer.
-- (void)TRPeriodicSave_toggleTimer:(id)arg1
-{
-    [[TRPeriodicSave sharedInstance] toggleSaveTimer];
-    
-    for (NSObject *timer in [[self timerArrayController] selectedObjects]) {
-        if ([[timer timeSpent] isEqualToNumber:[NSNumber numberWithInt:0]])
-            [timer setDate:[NSDate date]];
-    }
-    
-    [self TRPeriodicSave_toggleTimer:arg1];
-}
-
-@end
 
 @implementation TRPeriodicSave
 
 @synthesize saveTimer;
-
-+ (void)load
-{
-    [NSClassFromString(@"TimeTrackerController") jr_swizzleMethod:@selector(toggleTimer:) withMethod:@selector(TRPeriodicSave_toggleTimer:) error:NULL];
-}
 
 + (id)sharedInstance
 {
