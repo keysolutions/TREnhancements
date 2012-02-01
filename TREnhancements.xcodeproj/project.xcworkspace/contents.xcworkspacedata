@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:TRPeriodicSave.xcodeproj">
+      location = "self:TREnhancements.xcodeproj">
    </FileRef>
 </Workspace>

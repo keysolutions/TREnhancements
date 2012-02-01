@@ -13,7 +13,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		662C1B2B14D1BD47000C69A2 /* TRPeriodicSave.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRPeriodicSave.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		662C1B2B14D1BD47000C69A2 /* TREnhancements.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TREnhancements.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		662C1B3614D1BD47000C69A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		66EFCB0014D3C6800030611B /* TRPeriodicSave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRPeriodicSave.m; sourceTree = "<group>"; };
 		66EFCB0214D3C8D00030611B /* JRSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRSwizzle.m; sourceTree = "<group>"; };
@@ -37,7 +37,7 @@
 		662C1B2014D1BD47000C69A2 = {
 			isa = PBXGroup;
 			children = (
-				662C1B3414D1BD47000C69A2 /* TRPeriodicSave */,
+				662C1B3414D1BD47000C69A2 /* TREnhancements */,
 				662C1B2D14D1BD47000C69A2 /* Frameworks */,
 				662C1B2C14D1BD47000C69A2 /* Products */,
 			);
@@ -46,7 +46,7 @@
 		662C1B2C14D1BD47000C69A2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				662C1B2B14D1BD47000C69A2 /* TRPeriodicSave.bundle */,
+				662C1B2B14D1BD47000C69A2 /* TREnhancements.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,7 +59,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		662C1B3414D1BD47000C69A2 /* TRPeriodicSave */ = {
+		662C1B3414D1BD47000C69A2 /* TREnhancements */ = {
 			isa = PBXGroup;
 			children = (
 				662C1B3514D1BD47000C69A2 /* Supporting Files */,
@@ -68,6 +68,7 @@
 				66EFCB0214D3C8D00030611B /* JRSwizzle.m */,
 				66EFCB0414D3C8E70030611B /* JRSwizzle.h */,
 			);
+			name = TREnhancements;
 			path = TRPeriodicSave;
 			sourceTree = "<group>";
 		};
@@ -82,9 +83,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		662C1B2A14D1BD47000C69A2 /* TRPeriodicSave */ = {
+		662C1B2A14D1BD47000C69A2 /* TREnhancements */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 662C1B3D14D1BD47000C69A2 /* Build configuration list for PBXNativeTarget "TRPeriodicSave" */;
+			buildConfigurationList = 662C1B3D14D1BD47000C69A2 /* Build configuration list for PBXNativeTarget "TREnhancements" */;
 			buildPhases = (
 				662C1B2714D1BD47000C69A2 /* Sources */,
 				662C1B2814D1BD47000C69A2 /* Frameworks */,
@@ -94,9 +95,9 @@
 			);
 			dependencies = (
 			);
-			name = TRPeriodicSave;
+			name = TREnhancements;
 			productName = TRPeriodicSave;
-			productReference = 662C1B2B14D1BD47000C69A2 /* TRPeriodicSave.bundle */;
+			productReference = 662C1B2B14D1BD47000C69A2 /* TREnhancements.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -108,7 +109,7 @@
 				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = "Connex Keysolutions Inc.";
 			};
-			buildConfigurationList = 662C1B2514D1BD47000C69A2 /* Build configuration list for PBXProject "TRPeriodicSave" */;
+			buildConfigurationList = 662C1B2514D1BD47000C69A2 /* Build configuration list for PBXProject "TREnhancements" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -120,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				662C1B2A14D1BD47000C69A2 /* TRPeriodicSave */,
+				662C1B2A14D1BD47000C69A2 /* TREnhancements */,
 			);
 		};
 /* End PBXProject section */
@@ -204,7 +205,7 @@
 				INFOPLIST_FILE = TRPeriodicSave/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
 				OTHER_LDFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TREnhancements;
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
@@ -220,7 +221,7 @@
 				INFOPLIST_FILE = TRPeriodicSave/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
 				OTHER_LDFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TREnhancements;
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
@@ -228,7 +229,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		662C1B2514D1BD47000C69A2 /* Build configuration list for PBXProject "TRPeriodicSave" */ = {
+		662C1B2514D1BD47000C69A2 /* Build configuration list for PBXProject "TREnhancements" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				662C1B3B14D1BD47000C69A2 /* Debug */,
@@ -237,7 +238,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		662C1B3D14D1BD47000C69A2 /* Build configuration list for PBXNativeTarget "TRPeriodicSave" */ = {
+		662C1B3D14D1BD47000C69A2 /* Build configuration list for PBXNativeTarget "TREnhancements" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				662C1B3E14D1BD47000C69A2 /* Debug */,

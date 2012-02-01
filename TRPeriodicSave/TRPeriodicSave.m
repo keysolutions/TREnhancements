@@ -40,12 +40,12 @@
 - (void)toggleSaveTimer
 {
     if (self.saveTimer) {
-        NSLog(@"TRPeriodicSave: Stopping periodic save timer.");
+        NSLog(@"TREnhancements: Stopping periodic save timer.");
         
         [self.saveTimer invalidate];
         self.saveTimer = nil;
     } else {
-        NSLog(@"TRPeriodicSave: Starting periodic save timer.");
+        NSLog(@"TREnhancements: Starting periodic save timer.");
         
         self.saveTimer = [NSTimer scheduledTimerWithTimeInterval:30.0 target:self selector:@selector(performSave:) userInfo:nil repeats:YES];
     }
