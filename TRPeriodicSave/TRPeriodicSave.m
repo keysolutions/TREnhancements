@@ -7,6 +7,12 @@
 - (void)TRPeriodicSave_toggleTimer:(id)arg1
 {
     [[TRPeriodicSave sharedInstance] toggleSaveTimer];
+    
+    for (NSObject *timer in [[self timerArrayController] selectedObjects]) {
+        if ([[timer timeSpent] isEqualToNumber:[NSNumber numberWithInt:0]])
+            [timer setDate:[NSDate date]];
+    }
+    
     [self TRPeriodicSave_toggleTimer:arg1];
 }
 
