@@ -1,19 +1,22 @@
-TRPeriodicSave
+TREnhancements
 ==============
 
-Implements periodic saving of timers in <a href="http://trackrecordapp.com/">TrackRecord</a>, a Basecamp time tracking app. The save timer is called every 30 seconds, mitigating the data lost in the event of a system crash or "force quitting" the application.
+A collection of enhancements for <a href="http://trackrecordapp.com/">TrackRecord</a>, a Basecamp time tracking app.
+
+* Implements periodic saving of timers mitigating the data lost in the event of a system crash or "force quitting" the application. Save is executed every 30 seconds.
+* Resets active timer dates to the current date if no time has been logged.
 
 How to install:
 ---------------
 
 * Install <a href="http://www.culater.net/software/SIMBL/SIMBL.php">SIMBL</a> if not already installed
-* Build and copy TRPeriodicSave.bundle to /Library/Application Support/SIMBL/Plugins for all users, or ~/Library/Application Support/SIMBL/Plugins for just your account
+* Build and copy TREnhancements.bundle to /Library/Application Support/SIMBL/Plugins for all users, or ~/Library/Application Support/SIMBL/Plugins for just your account
 * That's it!
 
 Credits:
 --------
 
-In addition to SIMBL, TRPeriodicSave makes use of JRSwizzle:
+In addition to SIMBL, TREnhancements makes use of JRSwizzle:
 
 Copyright (c) 2007-2011 Jonathan 'Wolf' Rentzsch: http://rentzsch.com
 Some rights reserved: http://opensource.org/licenses/mit-license.php
