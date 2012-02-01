@@ -1,5 +1,6 @@
-#import "JRSwizzle.h"
+#import "TREnhancements.h"
 #import "TRPeriodicSave.h"
+#import "JRSwizzle.h"
 
 @implementation NSObject (TREnhancements)
 
@@ -8,8 +9,11 @@
 {
     // Set the timer's date to today's date if no time has been logged.
     for (NSObject *timer in [[self timerArrayController] selectedObjects]) {
-        if ([[timer timeSpent] isEqualToNumber:[NSNumber numberWithInt:0]])
+        if ([[timer timeSpent] isEqualToNumber:[NSNumber numberWithInt:0]]) {
+            NSLog(@"TREnhancements: Timer \"%@\" has no time logged. Resetting the date to today.", [timer desc]);
+            
             [timer setDate:[NSDate date]];
+        }
     }
     
     [[TRPeriodicSave sharedInstance] toggleSaveTimer];    
@@ -18,14 +22,13 @@
 
 @end
 
-@interface TREnhancements
-@end
-
 @implementation TREnhancements
 
 + (void)load
 {
-    [NSClassFromString(@"TimeTrackerController") jr_swizzleMethod:@selector(toggleTimer:) withMethod:@selector(TRPeriodicSave_toggleTimer:) error:NULL];
+    NSLog(@"Loading TREnhancements...");
+    
+    [NSClassFromString(@"TimeTrackerController") jr_swizzleMethod:@selector(toggleTimer:) withMethod:@selector(TREnhancements_toggleTimer:) error:NULL];
 }
 
 @end

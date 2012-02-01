@@ -22,6 +22,7 @@
 		66BBE1C514D9E127007A8B68 /* TREnhancements.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TREnhancements.m; path = TREnhancements/TREnhancements.m; sourceTree = SOURCE_ROOT; };
 		66BBE1C614D9E127007A8B68 /* TRPeriodicSave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TRPeriodicSave.h; path = TREnhancements/TRPeriodicSave.h; sourceTree = SOURCE_ROOT; };
 		66BBE1C714D9E127007A8B68 /* TRPeriodicSave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TRPeriodicSave.m; path = TREnhancements/TRPeriodicSave.m; sourceTree = SOURCE_ROOT; };
+		66BBE1CE14D9E2C9007A8B68 /* TREnhancements.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TREnhancements.h; path = TREnhancements/TREnhancements.h; sourceTree = SOURCE_ROOT; };
 		66EFCB0614D3D6CC0030611B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -70,6 +71,7 @@
 				66BBE1C314D9E127007A8B68 /* JRSwizzle.m */,
 				66BBE1C414D9E127007A8B68 /* TREnhancements-Prefix.pch */,
 				66BBE1C514D9E127007A8B68 /* TREnhancements.m */,
+				66BBE1CE14D9E2C9007A8B68 /* TREnhancements.h */,
 				66BBE1C614D9E127007A8B68 /* TRPeriodicSave.h */,
 				66BBE1C714D9E127007A8B68 /* TRPeriodicSave.m */,
 			);
